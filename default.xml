@@ -3,9 +3,10 @@
   <remote fetch="https://github.com" name="github"/>
   <remote fetch="http://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/STMicroelectronics" name="OpenSTLinux"/>
-  
+  <remote fetch="https://github.com/Zondax" name="Zondax"/>
+
   <default remote="OpenSTLinux"/>
-  
+
   <project name="TimesysGit/meta-timesys" path="layers/meta-timesys" remote="github" revision="031d6eb674c76b1d9dabdc93cbff4adb10c7cebb"/>
   <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="4ce92f43eeac6a4bfd06e8567fa6891614b5b3b0"/>
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="9b3b907f30b0d5b92d58c7e68289184fda733d3e"/>
@@ -15,4 +16,5 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="db898de3834a8a2a889a6b43993b8faf22de798c"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="09bc7b8639a227f4bcba3223de144520e4c31d09"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="d3d3f443039b03f1200a14bfe99f985592632018"/>
+  <project name="meta-zondax" path="layers/meta-zondax" remote="Zondax" />
 </manifest>
