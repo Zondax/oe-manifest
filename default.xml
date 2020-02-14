@@ -16,5 +16,5 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="ef975cf09260b1e30a21384d2b1e751e6729d219"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="1eb70bb452a0eb3c0cde5b62c9a96c54b91fc334"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="cd7cf933b3235560ec71576d8f3836dff736a39f"/>
-  <project name="meta-zondax" path="layers/meta-zondax" remote="Zondax" />
+  <project name="meta-zondax" path="layers/meta-zondax" remote="Zondax" revision="master" />
 </manifest>
